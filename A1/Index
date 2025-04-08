@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet House</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Pet House</h1>
+    </header>
+    <section class="gallery">
+        <div class="pet">
+            <img src="images/cat.jpg" alt="Cat">
+            <p>Meet our playful cats!</p>
+        </div>
+        <div class="pet">
+            <img src="images/dog.jpg" alt="Dog">
+            <p>Our friendly dogs are waiting for you!</p>
+        </div>
+        <div class="pet">
+            <img src="images/bird.jpg" alt="Bird">
+            <p>Colorful birds ready to sing for you!</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 Pet House. All rights reserved.</p>
+    </footer>
+</body>
+</html>
