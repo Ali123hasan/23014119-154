@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>JavaScript Functions Demo</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    .box { margin: 10px 0; }
+    input, button { padding: 5px; margin: 5px; }
+    #timer { font-size: 20px; font-weight: bold; color: green; }
+  </style>
+</head>
+<body>
+
+  <h1>JavaScript Function Examples</h1>
+
+  <div class="box">
+    <input type="text" id="nameInput" placeholder="Enter your name" />
+    <button onclick="greetUser()">Greet</button>
+    <p id="greetingText"></p>
+  </div>
+
+  <div class="box">
+    <input type="number" id="numInput" placeholder="Enter a number" />
+    <button onclick="checkEven()">Check Even/Odd</button>
+    <p id="evenResult"></p>
+  </div>
+
+  <div class="box">
+    <button onclick="generateRandomNumber()">Generate Random Number</button>
+    <p id="randomNumber"></p>
+  </div>
+
+  <div class="box">
+    <button onclick="showTime()">Show Time</button>
+    <p id="timeDisplay"></p>
+  </div>
+
+  <div class="box">
+    <input type="text" id="textInput" placeholder="Type something" />
+    <button onclick="reverseText()">Reverse Text</button>
+    <p id="reversedText"></p>
+  </div>
+
+  <div class="box">
+    <button onclick="showFruits()">Show Fruits</button>
+    <ul id="fruitList"></ul>
+  </div>
+
+  <div class="box">
+    <input type="number" id="num1" placeholder="Num 1" />
+    <input type="number" id="num2" placeholder="Num 2" />
+    <button onclick="addNumbers()">Add</button>
+    <p id="addResult"></p>
+  </div>
+
+  <div class="box">
+    <button onclick="startTimer()">Start Timer</button>
+    <p id="timer">Timer: 0</p>
+  </div>
+
+  <script>
+    function greetUser() {
+      let name = document.getElementById('nameInput').value;
+      document.getElementById('greetingText').textContent = "Hello, " + capitalizeFirst(name) + "!";
+    }
+
+    function capitalizeFirst(str) {
+      return str.charAt(0).toUpperCase() + str.slice(1);
+    }
+
+    function checkEven() {
+      let num = parseInt(document.getElementById('numInput').value);
+      let result = (num % 2 === 0) ? "Even" : "Odd";
+      document.getElementById('evenResult').textContent = "The number is " + result;
+    }
+
+    function generateRandomNumber() {
+      let rand = Math.floor(Math.random() * 100);
+      document.getElementById('randomNumber').textContent = "Random number: " + rand;
+    }
+
+    function showTime() {
+      let now = new Date();
+      document.getElementById('timeDisplay').textContent = "Current Time: " + now.toLocaleTimeString();
+    }
+
+    function reverseText() {
+      let text = document.getElementById('textInput').value;
+      let reversed = text.split('').reverse().join('');
+      document.getElementById('reversedText').textContent = "Reversed: " + reversed;
+    }
+
+    function showFruits() {
+      let fruits = ['Apple', 'Banana', 'Cherry', 'Date'];
+      let list = document.getElementById('fruitList');
+      list.innerHTML = ''; // Clear previous items
+      fruits.forEach(function(fruit) {
+        let li = document.createElement('li');
+        li.textContent = fruit;
+        list.appendChild(li);
+      });
+    }
+
+    function addNumbers() {
+      let n1 = parseFloat(document.getElementById('num1').value);
+      let n2 = parseFloat(document.getElementById('num2').value);
+      if (isNaN(n1) || isNaN(n2)) {
+        document.getElementById('addResult').textContent = "Please enter valid numbers.";
+        return;
+      }
+      document.getElementById('addResult').textContent = "Sum: " + (n1 + n2);
+    }
+
+    let count = 0;
+    let timerInterval;
+    function startTimer() {
+      clearInterval(timerInterval);
+      count = 0;
+      timerInterval = setInterval(() => {
+        count++;
+        document.getElementById('timer').textContent = "Timer: " + count;
+        if (count >= 10) clearInterval(timerInterval); // Stop after 10 seconds
+      }, 1000);
+    }
+  </script>
+</body>
+</html>
+
+JavaScript Functions Used:
+
+1. greetUser()
+
+
+2. capitalizeFirst()
+
+
+3. checkEven()
+
+
+4. generateRandomNumber()
+
+
+5. showTime()
+
+
+6. reverseText()
+
+
+7. showFruits()
+
+
+8. addNumbers()
+
+
+9. startTimer()
+
+
+10. Arrow function inside setInterval
+
+
+
+
