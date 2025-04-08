@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cat House Paradise</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-pink-50 font-sans">
+
+  <!-- Header -->
+  <header class="bg-pink-300 text-white text-center py-6">
+    <h1 class="text-4xl font-bold">Cat House Paradise</h1>
+    <p class="text-lg mt-2">Your cat's favorite place</p>
+  </header>
+
+  <!-- Hero Image -->
+  <div class="bg-cover bg-center h-72" style="background-image: url('https://placekitten.com/1000/400');"></div>
+
+  <!-- Main Content -->
+  <main class="p-6">
+    <h2 class="text-2xl font-semibold text-pink-600 mb-4">Welcome to the Cat House!</h2>
+    <p class="text-gray-700 mb-8">We provide the coziest, safest, and most luxurious spaces for your feline friends.</p>
+
+    <!-- Cat Features Gallery -->
+    <div class="grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+      <!-- Card 1 -->
+      <div class="bg-white rounded-xl shadow-md p-4 text-center">
+        <img src="https://placekitten.com/300/200" alt="Fluffy Beds" class="rounded-lg mx-auto mb-4">
+        <h3 class="text-xl font-semibold text-pink-500 mb-2">Fluffy Beds</h3>
+        <p class="text-gray-600">Soft and warm spots for perfect cat naps.</p>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="bg-white rounded-xl shadow-md p-4 text-center">
+        <img src="https://placekitten.com/301/200" alt="Play Areas" class="rounded-lg mx-auto mb-4">
+        <h3 class="text-xl font-semibold text-pink-500 mb-2">Play Areas</h3>
+        <p class="text-gray-600">Scratching posts, tunnels, and climbing trees galore!</p>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="bg-white rounded-xl shadow-md p-4 text-center">
+        <img src="https://placekitten.com/302/200" alt="Healthy Meals" class="rounded-lg mx-auto mb-4">
+        <h3 class="text-xl font-semibold text-pink-500 mb-2">Healthy Meals</h3>
+        <p class="text-gray-600">Nutritious and delicious food for every kitty taste.</p>
+      </div>
+    </div>
+  </main>
+
+
+<body class="bg-gray-50 font-sans">
+
+  <header class="bg-white shadow p-4">
+    <div class="max-w-6xl mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-gray-800">PawPal</h1>
+      <nav class="space-x-4">
+        <a href="#" class="text-gray-600 hover:text-gray-900">Home</a>
+        <a href="#" class="text-gray-600 hover:text-gray-900">Dogs</a>
+        <a href="#" class="text-gray-600 hover:text-gray-900">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-4xl mx-auto mt-10 bg-white shadow-md rounded-2xl overflow-hidden">
+    <div class="md:flex">
+      <div class="md:w-1/2">
+        <img src="https://images.unsplash.com/photo-1601758123927-196f17a4b2c2" alt="Golden Retriever" class="w-full h-full object-cover">
+      </div>
+      <div class="md:w-1/2 p-6 space-y-4">
+        <h2 class="text-3xl font-bold text-gray-800">Buddy</h2>
+        <p class="text-gray-600 text-sm">Breed: Golden Retriever</p>
+        <p class="text-gray-700">
+          Buddy is a 3-year-old golden retriever who loves to play fetch, go for walks, and cuddle up on the couch. He's friendly, gentle, and gets along well with other pets.
+        </p>
+        <p class="text-sm text-green-600 font-semibold">Adoption Status: Available</p>
+        <button class="mt-4 px-4 py-2 bg-blue-600 text-white rounded-xl hover:bg-blue-700 transition">
+          Adopt Me
+        </button>
+      </div>
+    </div>
+  </main>
+
+
+
+<body class="bg-yellow-50 font-sans">
+
+  <header class="bg-white shadow p-4">
+    <div class="max-w-6xl mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-yellow-800">Feather Friends</h1>
+      <nav class="space-x-4">
+        <a href="#" class="text-yellow-700 hover:text-yellow-900">Home</a>
+        <a href="#" class="text-yellow-700 hover:text-yellow-900">Ducks</a>
+        <a href="#" class="text-yellow-700 hover:text-yellow-900">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-4xl mx-auto mt-10 bg-white shadow-md rounded-2xl overflow-hidden">
+    <div class="md:flex">
+      <div class="md:w-1/2">
+        <img src="https://images.unsplash.com/photo-1508610048659-a06b669e9aa1" alt="Duck named Daisy" class="w-full h-full object-cover">
+      </div>
+      <div class="md:w-1/2 p-6 space-y-4">
+        <h2 class="text-3xl font-bold text-yellow-800">Daisy</h2>
+        <p class="text-yellow-700 text-sm">Breed: Pekin Duck</p>
+        <p class="text-gray-700">
+          Daisy is a charming Pekin duck who loves to splash in ponds, snack on greens, and waddle around with her duck friends. She's calm, curious, and absolutely adorable.
+        </p>
+        <p class="text-sm text-green-600 font-semibold">Adoption Status: Available</p>
+        <button class="mt-4 px-4 py-2 bg-yellow-500 text-white rounded-xl hover:bg-yellow-600 transition">
+          Adopt Me
+        </button>
+      </div>
+    </div>
+  </main>
+
+
+
+<body class="bg-stone-50 font-sans">
+
+  <header class="bg-white shadow p-4">
+    <div class="max-w-6xl mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-stone-800">Hilltop Herd</h1>
+      <nav class="space-x-4">
+        <a href="#" class="text-stone-700 hover:text-stone-900">Home</a>
+        <a href="#" class="text-stone-700 hover:text-stone-900">Goats</a>
+        <a href="#" class="text-stone-700 hover:text-stone-900">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-4xl mx-auto mt-10 bg-white shadow-md rounded-2xl overflow-hidden">
+    <div class="md:flex">
+      <div class="md:w-1/2">
+        <img src="https://images.unsplash.com/photo-1603349206297-342903dba6f0" alt="Goat named Clover" class="w-full h-full object-cover">
+      </div>
+      <div class="md:w-1/2 p-6 space-y-4">
+        <h2 class="text-3xl font-bold text-stone-800">Clover</h2>
+        <p class="text-stone-700 text-sm">Breed: Nigerian Dwarf Goat</p>
+        <p class="text-gray-700">
+          Clover is a lively and affectionate little goat with a love for climbing, nibbling on hay, and making new friends. She’s great with kids and enjoys outdoor adventures.
+        </p>
+        <p class="text-sm text-green-600 font-semibold">Adoption Status: Available</p>
+        <button class="mt-4 px-4 py-2 bg-emerald-600 text-white rounded-xl hover:bg-emerald-700 transition">
+          Adopt Me
+        </button>
+      </div>
+    </div>
+  </main>
+
+  <footer class="mt-10 text-center text-stone-700 text-sm p-4">
+    © 2025 Hilltop Herd. All rights reserved.
+  </footer>
+
+</body>
+</html>
